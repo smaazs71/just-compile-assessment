@@ -1,15 +1,21 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { Box, Button, Container, Typography } from "@mui/material";
+import { OrderDetails, OrderSearch, OrdersList } from "@/components";
 
 export default function Home() {
   return (
-    <Container>
-      <Box>
-        <Typography variant="h1">Hey there</Typography>
-        <Button variant="contained" color="primary">
-          adsf
-        </Button>
+    <Container className={styles.container}>
+      <Box className={styles.ordersSection}>
+        <Box className={styles.orderSearchSection}>
+          <OrderSearch />
+        </Box>
+        <Box className={styles.ordersListSection}>
+          <OrdersList />
+        </Box>
+      </Box>
+      <Box className={styles.orderDetailsSection}>
+        <OrderDetails />
       </Box>
     </Container>
   );

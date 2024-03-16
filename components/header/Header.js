@@ -8,7 +8,7 @@ import AppsOutageRoundedIcon from "@mui/icons-material/AppsOutageRounded";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
 const Header = () => {
   return (
-    <Container className={styles.header}>
+    <Box className={styles.header}>
       <Typography>Procurement</Typography>
       <Box className={styles.setting}>
         <Box className={styles.iconsContainer}>
@@ -41,7 +41,7 @@ const Header = () => {
           </Button>
         </Box>
       </Box>
-    </Container>
+    </Box>
   );
 };
 

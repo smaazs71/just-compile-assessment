@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ordersSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 2;
+}
+.orderSearchSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 5;
+}
+.ordersListSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2;
+}
+
+.orderDetailsSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 5;
+}
