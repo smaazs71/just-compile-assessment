@@ -1,0 +1,88 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 80px;
+  padding: 8px 0px 32px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.menuFab {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.fab {
+  height: 56px;
+  width: 56px;
+  border-radius: 16px;
+  /* background-color: #00704b; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fabIconContainer {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fabIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.destination {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 4px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.segment {
+  height: 56px;
+  width: 56px;
+  border-radius: 100px;
+  gap: 10px;
+}
+
+.iconContainer {
+  height: 56px;
+  width: 56px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.segmentIcon {
+  height: 24px;
+  width: 24px;
+}
