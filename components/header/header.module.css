@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px 12px 32px;
+}
+
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.searchIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 21px;
+  width: 21px;
+  border-radius: 200px;
+  padding: 6px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 36px;
+  width: 36px;
+  border-radius: 100px;
+  padding: 8px;
+}
+
+.profileButton {
+  border-radius: 16px;
+  padding: 4px 16px 4px 12px;
+  gap: 0px;
+  text-transform: capitalize;
+}

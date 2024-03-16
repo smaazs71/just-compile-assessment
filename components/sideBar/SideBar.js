@@ -1,4 +1,4 @@
-import { Box, Container } from "@mui/material";
+import { Box, Button, Container } from "@mui/material";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import AddIcon from "@mui/icons-material/Add";
@@ -13,7 +13,7 @@ const SideBar = () => {
         <Box className={styles.menu}>
           <MenuIcon
             className={styles.menuIcon}
-            sx={{ color: "foreground.main" }}
+            sx={{ color: "background.main" }}
           />
         </Box>
         <Box className={styles.fab} bgcolor="secondaryGreen.main">

@@ -8,7 +8,6 @@ export default function Home() {
       <Box>
         <Typography variant="h1">Hey there</Typography>
         <Button variant="contained" color="primary">
-          {" "}
           adsf
         </Button>
       </Box>

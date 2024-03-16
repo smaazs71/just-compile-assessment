@@ -5,12 +5,12 @@ export const colors = {
   danger: { main: "#ff5722" },
   warning: { main: "#ffc107" },
   darkGreen: { main: "#052E2B" },
-  foreground: { main: "#F5F5F5" },
+  background: { main: "#F5F5F5" },
   secondaryGreen: { main: "#00704b" },
   visionGreen: { main: "#68DA6A" },
   green2: { main: "#052E2B" },
   green3: { main: "#00504B" },
-  
+
   white: { main: "#ffffff" },
   black: { main: "#000000" },
 };

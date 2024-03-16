@@ -1,8 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@mui/material";
+import { Box, ThemeProvider } from "@mui/material";
 import { theme } from "@/components/theme/theme";
-import { SideBar } from "@/components";
+import { Header, SideBar } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,8 +16,19 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider theme={theme}>
-          <SideBar />
-          {children}
+          <Box
+            bgcolor={"background"}
+            sx={{
+              pl: "80px",
+              bgcolor: "background.main",
+              height: "100vh",
+              width: "100vw",
+            }}
+          >
+            <Header />
+            <SideBar />
+            {children}
+          </Box>
         </ThemeProvider>
       </body>
     </html>
