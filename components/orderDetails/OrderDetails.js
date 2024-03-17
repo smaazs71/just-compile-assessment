@@ -1,9 +1,8 @@
-import React from 'react'
+import { Paper } from "@mui/material";
+import styles from "./orderDetails.module.css";
 
 const OrderDetails = () => {
-  return (
-    <div>OrderDetails</div>
-  )
-}
+  return <Paper className={styles.container}>OrderDetails</Paper>;
+};
 
-export default OrderDetails
+export default OrderDetails;

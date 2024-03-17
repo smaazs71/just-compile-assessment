@@ -1,4 +1,4 @@
-import { Box, Button, Container } from "@mui/material";
+import { Box, Button, Container, IconButton } from "@mui/material";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import AddIcon from "@mui/icons-material/Add";
@@ -10,19 +10,19 @@ const SideBar = () => {
   return (
     <Box className={styles.sidebar} sx={{ bgcolor: "darkGreen.main" }}>
       <Box className={styles.menuFab}>
-        <Box className={styles.menu}>
+        <IconButton className={styles.menu}>
           <MenuIcon
             className={styles.menuIcon}
             sx={{ color: "background.main" }}
           />
-        </Box>
+        </IconButton>
         <Box className={styles.fab} bgcolor="secondaryGreen.main">
-          <Box className={styles.fabIconContainer}>
+          <IconButton className={styles.fabIconContainer}>
             <AddIcon
               className={styles.fabIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
       </Box>
       <Box className={styles.destination}>
@@ -30,7 +30,7 @@ const SideBar = () => {
           sx={{ height: "32px !important", bgcolor: "green3.main" }}
           className={styles.segment}
         >
-          <Box
+          <IconButton
             sx={{
               height: "32px !important",
               padding: "4px 16px 4px 16px !important",
@@ -41,48 +41,48 @@ const SideBar = () => {
               className={styles.segmentIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
 
         <Box className={styles.segment}>
-          <Box className={styles.iconContainer}>
+          <IconButton className={styles.iconContainer}>
             <Person4OutlinedIcon
               className={styles.segmentIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
         <Box className={styles.segment}>
-          <Box className={styles.iconContainer}>
+          <IconButton className={styles.iconContainer}>
             <Person4OutlinedIcon
               className={styles.segmentIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
         <Box className={styles.segment}>
-          <Box className={styles.iconContainer}>
+          <IconButton className={styles.iconContainer}>
             <Person4OutlinedIcon
               className={styles.segmentIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
         <Box className={styles.segment}>
-          <Box className={styles.iconContainer}>
+          <IconButton className={styles.iconContainer}>
             <Person4OutlinedIcon
               className={styles.segmentIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
         <Box className={styles.segment}>
-          <Box className={styles.iconContainer}>
+          <IconButton className={styles.iconContainer}>
             <Person4OutlinedIcon
               className={styles.segmentIcon}
               sx={{ color: "visionGreen.main" }}
             />
-          </Box>
+          </IconButton>
         </Box>
       </Box>
     </Box>

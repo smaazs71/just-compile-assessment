@@ -1,0 +1,162 @@
+.orderContainer {
+  width: 430px;
+  height: 102px;
+  padding: 12px 16px 12px 16px;
+  border-radius: 8px;
+  display: flex;
+
+  justify-content: space-between;
+  box-shadow: 0px 5px 8px 0px #00000024;
+}
+
+.leftSection {
+  /* width: Hug (191px)
+ 
+ height: Hug (77px) */
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 12px;
+}
+.orderBasicDetials {
+  /* width: Hug (191px)
+ height: Hug (37px) */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.orderNo {
+  /* width: 87px */
+  height: 16px;
+
+  /* //styleName: Tile Header 02/M; */
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  color: #052e2b;
+}
+.orderName {
+  /* width: 191px */
+  height: 16px;
+  /* //styleName: Tile Header 01/S; */
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #020a08;
+}
+
+.orderInputChip {
+  /* width: 113.31px; */
+  height: 28px;
+  border-radius: 8px;
+
+  background: #80e7ff;
+  padding: 6px 12px 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: fit-content;
+
+  gap: 8px;
+}
+
+.inputChipIcon {
+  /* width: 11.31px */
+  height: 12px;
+  border: 0.5;
+
+  color: #04487f;
+
+  border: 0.5px solid #04487f;
+}
+.Lorem {
+  /* width: 74px; */
+  height: 16px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #04487f;
+}
+
+.rightSection {
+  /* width: Hug (65px)
+ height: Fixed (78px) */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.iconsContainer {
+  display: flex;
+  /* width: Hug (58px)
+ height: Hug (24px) */
+  gap: 12px;
+}
+.iconContainer {
+  /* width: Hug (24px)
+ height: Hug (24px) */
+  display: flex;
+  gap: 4px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.textSymbol {
+  width: 22px;
+  height: 22px;
+  /* width: 13px;
+ height: 14px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  gap: 10px;
+  border-radius: 100px;
+  background: #008a25;
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #f5f5f5;
+}
+
+.textSection {
+  width: 65px;
+  height: 43px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.textTitle {
+  width: 50px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #697e85;
+}
+.textDate {
+  width: 65px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #697e85;
+}

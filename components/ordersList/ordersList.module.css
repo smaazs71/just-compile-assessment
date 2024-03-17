@@ -1,0 +1,54 @@
+.container {
+  /* flex: 1; */
+  width: 100%;
+  overflow-y: auto;
+}
+
+.titleContainer {
+  padding: 20px 0 8px 20px;
+  display: flex;
+  justify-content: start;
+  gap: 8px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 500;
+  font-family: Inter;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+.orderCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 18px;
+  padding: 5px 8px 5px 8px;
+  gap: 10px;
+  border-radius: 100px;
+  font-family: Inter;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* background: #052E2B; */
+}
+
+.orderList {
+  height: calc(100vh - 300px);
+
+  display: flex;
+
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  border-radius: 8px;
+}
+
+.orderList::-webkit-scrollbar {
+  display: none;
+}

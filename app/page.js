@@ -7,16 +7,10 @@ export default function Home() {
   return (
     <Container className={styles.container}>
       <Box className={styles.ordersSection}>
-        <Box className={styles.orderSearchSection}>
-          <OrderSearch />
-        </Box>
-        <Box className={styles.ordersListSection}>
-          <OrdersList />
-        </Box>
+        <OrderSearch />
+        <OrdersList />
       </Box>
-      <Box className={styles.orderDetailsSection}>
-        <OrderDetails />
-      </Box>
+      <OrderDetails />
     </Container>
   );
 }
